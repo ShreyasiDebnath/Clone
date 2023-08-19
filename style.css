@@ -12,8 +12,8 @@ button {
 }
 html,
 body {
-  height: 100vmin;
-  /* width: 100vmin; */
+  height: 100vh;
+  width: 100vw; 
 }
 #main {
   position: relative;
