@@ -6,12 +6,8 @@ function loco(){
     const locoScroll = new LocomotiveScroll({
       el: document.querySelector("#main"),
       smooth: true,
-      mobile: {
-        smooth: true
-    },
-    tablet: {
-        smooth: true
-    }
+      smoothMobile: true
+  
     });
     // each time Locomotive Scroll updates, tell ScrollTrigger to update too (sync positioning)
     locoScroll.on("scroll", ScrollTrigger.update);
@@ -338,7 +334,7 @@ gsap.to(imageSeq, {
     trigger: `#page7>canvas`,
     //   set start end according to preference
     start: `top top`,
-    end: `600% top`,
+    end: `400% top`,
     scroller: `#main`,
   },
   onUpdate: render,
@@ -374,7 +370,7 @@ ScrollTrigger.create({
 
   trigger: "#page7>canvas",
   pin: true,
-   markers:true,
+   //markers:true,
   scroller: `#main`,
 //   set start end according to preference
   start: `top top`,
