@@ -334,7 +334,7 @@ gsap.to(imageSeq, {
     trigger: `#page7>canvas`,
     //   set start end according to preference
     start: `top top`,
-    end: `400% top`,
+    end: `500% top`,
     scroller: `#main`,
   },
   onUpdate: render,

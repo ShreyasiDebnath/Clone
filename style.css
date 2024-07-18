@@ -111,7 +111,7 @@ body {
 }
 #page3 > img {
   position: relative;
-  width: 80vmin;
+  width: 100vmin;
   left: 50%;
   top: 40%;
   transform: translate(-50%, -50%);
